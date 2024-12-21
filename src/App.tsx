@@ -31,7 +31,7 @@ function App() {
       element: <> <Navbar/> <Login/> </>
     },
     {
-      path: "/login",
+      path: "/cart",
       element: <> <Navbar/> <Cart/> </>
     }
   ])
