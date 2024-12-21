@@ -16,7 +16,7 @@ export default function Navbar(){
     }
 
     return(
-        <div className="bg-[#fff] px-4 fixed w-full x-50 shadow-sm top-0 shadow-[#ccc]">
+        <div className="bg-[#fff] px-4 fixed w-full z-50 shadow-sm top-0 shadow-[#ccc]">
             <div className="max-w-7xl mx-auto py-2 flex px-5 justify-between items-center">
                 <Link to='/'><img src={logo} alt="logo" className="md:w-24 w-20" /></Link>
 
